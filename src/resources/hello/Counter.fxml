@@ -2,12 +2,11 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.StackPane?>
-
 <StackPane xmlns="http://javafx.com"
            xmlns:fx="http://javafx.com"
            fx:controller="hello.Counter"
            prefWidth="400.0" prefHeight="300.0">
 
-    <Button fx:id="btn" text="Coounter: 0" />
+    <Button fx:id="btn" text="Counter: 0" onAction="#increment"/>
 
 </StackPane>

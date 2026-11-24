@@ -1,6 +1,7 @@
 # Hello (reactive)  JavaFX
 
-Personal cookbook, random experiments, anything.
+Personal cookbook, random experiments, anything about JavaFX and the correct 
+way to work with it.
 
 ## Requirements
 
