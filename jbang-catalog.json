@@ -1,0 +1,16 @@
+{
+  "aliases": {
+    "runApp": {
+      "script-ref": "src/java/Project.java",
+      "arguments": [
+        "run"
+      ]
+    },
+    "testApp": {
+      "script-ref": "src/java/Project.java",
+      "arguments": [
+        "test"
+      ]
+    }
+  }
+}
