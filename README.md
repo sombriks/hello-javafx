@@ -3,7 +3,7 @@
 Personal cookbook, random experiments, anything about JavaFX and the correct 
 way to work with it.
 
-Also exploring the ways of proper [reactivity]
+Also exploring the ways of [reactive UIs][reactivity]
 
 [reactivity]: https://sombriks.com.br/blog/0103-ten-reacrtive-design-patterns/
 
