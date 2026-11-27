@@ -16,5 +16,5 @@ This project has [jbang wrapper][jbwrapper], it provisions everything anywhere.
 ## How to run 
 
 ```bash
-./jbang runApp@.
+./mvnw compile exec:java
 ```
