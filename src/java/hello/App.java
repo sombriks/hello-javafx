@@ -10,15 +10,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Counter.fxml"));
-        // loader.setControllerFactory(clazz -> container.getBean(clazz));
-
-        Parent root = loader.load();
-        Scene scene = new Scene(root);
-
-        stage.setTitle("Contador");
+        Parent root = FXMLLoader.load(getClass().getResource("App.fxml"));
+        Scene scene = new Scene(root, 720, 480);
+        stage.setTitle("Hello JavaFX");
         stage.setScene(scene);
         stage.show();
+        stage.centerOnScreen();
     }
 
     public static void main(String... args) {
