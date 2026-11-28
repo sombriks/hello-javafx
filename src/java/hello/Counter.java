@@ -4,11 +4,8 @@ import javafx.beans.binding.Bindings;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
-
-import java.io.IOException;
 
 public class Counter extends StackPane implements FxmlComponent {
 
