@@ -18,3 +18,9 @@ This project has [jbang wrapper][jbwrapper], it provisions everything anywhere.
 ```bash
 ./jbang runApp@.
 ```
+
+## How to test
+
+```bash
+./jbang testApp@.
+```
