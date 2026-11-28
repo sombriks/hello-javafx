@@ -8,7 +8,7 @@
 import hello.App;
 
 void main(String... args) {
-    String mode = "";
+    String mode = "run";
     if (args.length > 0) mode = args[0];
     var resut = switch (mode) {
         case "run" -> {

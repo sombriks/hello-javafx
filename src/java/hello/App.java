@@ -1,10 +1,11 @@
 package hello;
 
+import hello.examples.Counter;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class App extends Application {
@@ -23,6 +24,7 @@ public class App extends Application {
         stage.centerOnScreen();
     }
 
+    // fails due to missing module path configuration
     public static void main(String... args) {
         launch(args);
     }

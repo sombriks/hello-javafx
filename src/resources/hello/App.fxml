@@ -6,8 +6,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<?import hello.Counter?>
-
 <BorderPane xmlns="http://javafx.com"
             xmlns:fx="http://javafx.com"
             prefWidth="720"

@@ -1,5 +1,6 @@
-package hello;
+package hello.examples;
 
+import hello.FxmlComponent;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
