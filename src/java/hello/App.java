@@ -2,7 +2,8 @@ package hello;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -10,7 +11,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("App.fxml"));
+        BorderPane root = (BorderPane) FXMLLoader.load(getClass().getResource("App.fxml"));
+        Button b1 = (Button) root.lookup("#b1");
+
+        b1.setOnAction(e -> root.setCenter(new Counter()));
+
         Scene scene = new Scene(root, 720, 480);
         stage.setTitle("Hello JavaFX");
         stage.setScene(scene);

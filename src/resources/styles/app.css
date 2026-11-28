@@ -1,4 +1,8 @@
+.b-menu {
+    -fx-spacing: 8px;
+    -fx-padding: 12px 8px 12px 8px;
+}
+
 .b-menu .button {
     -fx-font-size: 24px;
-    -fx-width: 100%;
 }
